@@ -8,17 +8,17 @@ const Navbar = () => (
     <h1>Space Travelers</h1>
     <ul>
       <li>
-        <NavLink to="rockets" activeClassName="active">
+        <NavLink to="rockets" activeclassname="active">
           Rockets
         </NavLink>
       </li>
       <li>
-        <NavLink to="missions" activeClassName="active">
+        <NavLink to="missions" activeclassname="active">
           Missions
         </NavLink>
       </li>
       <li>
-        <NavLink to="profile" activeClassName="active">
+        <NavLink to="profile" activeclassname="active">
           Profile
         </NavLink>
       </li>
