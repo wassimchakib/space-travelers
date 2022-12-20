@@ -1,10 +1,12 @@
+import { Provider } from 'react-redux';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from './redux/store';
 import Navbar from './components/navbar';
 import MissionsPage from './pages/missions/Missions';
 import './App.css';
-import Rockets from './components/rockets/Rockets';
+import Rockets from './pages/rockets/Rockets';
+import store from './redux/store';
 
 function App() {
   return (
