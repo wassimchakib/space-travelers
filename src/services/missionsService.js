@@ -1,9 +1,10 @@
 import axios from 'axios';
 
-class ApiService {
+class MissionService {
   static fetchMissions = async () => {
     try {
-      const response = await axios.get('https://api.spacexdata.com/v3/missions');
+      const url = 'https://api.spacexdata.com/v3/missions';
+      const response = await axios.get(url);
       return response.data;
     } catch (error) {
       return error;
@@ -11,4 +12,4 @@ class ApiService {
   };
 }
 
-export default ApiService;
+export default MissionService;

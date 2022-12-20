@@ -1,21 +1,24 @@
 import { Navigate, Route, Routes } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import store from './redux/store';
 import Navbar from './components/navbar';
-import Missions from './components/missions';
-
+import MissionsPage from './pages/missions/Missions';
 import './App.css';
 import Rockets from './components/rockets/Rockets';
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Routes>
-        <Route path="/rockets" element={<Rockets />} />
-        <Route path="/missions" element={<Missions />} />
-        <Route path="/profile" element={<h1>Profile</h1>} />
-        <Route exact path="/" element={<Navigate to="rockets" />} />
-        <Route path="*" element={<h1>404 Not Found</h1>} />
-      </Routes>
+      <Provider store={store}>
+        <Navbar />
+        <Routes>
+          <Route path="/rockets" element={<Rockets />} />
+          <Route path="/missions" element={<MissionsPage />} />
+          <Route path="/profile" element={<h1>Profile</h1>} />
+          <Route exact path="/" element={<Navigate to="rockets" />} />
+          <Route path="*" element={<h1>404 Not Found</h1>} />
+        </Routes>
+      </Provider>
     </>
   );
 }

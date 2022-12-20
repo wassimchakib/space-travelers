@@ -1,25 +1,24 @@
-import { createAsyncThunk } from '@reduxjs/toolkit';
-import ApiService from '../../api/ApiService';
+import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
+import MissionService from '../../services/missionsService';
 
-const initialState = {
-  missions: [],
-};
+// Actions
+const FETCHED_MISSONS = 'space-travelers/missions/FETCHED_MISSONS';
 
-const FETCHED_MISSONS = 'space-travelers/missions/fetched-missions';
+// Actions Creator
+export const getMissions = createAsyncThunk(FETCHED_MISSONS, MissionService.fetchMissions);
 
-const reducer = (state = initialState, { type, payload }) => {
-  switch (type) {
-    case `${FETCHED_MISSONS}/fulfilled`:
-      return {
-        ...state,
-        missions: [...payload],
-      };
+// Slice
+const missionSlice = createSlice({
+  name: 'missions',
+  initialState: {
+    missions: [],
+  },
+  extraReducers: (builder) => {
+    builder.addCase(getMissions.fulfilled, (state, action) => ({
+      ...state,
+      missions: action.payload,
+    }));
+  },
+});
 
-    default:
-      return state;
-  }
-};
-
-export const getMissions = createAsyncThunk(FETCHED_MISSONS, ApiService.fetchMissions);
-
-export default reducer;
+export default missionSlice.reducer;
