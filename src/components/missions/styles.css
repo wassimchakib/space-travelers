@@ -25,14 +25,37 @@ tr:nth-child(odd) {
 
 .mission-title {
   font-weight: 700;
+  font-size: var(--fs-2);
+}
+
+.title-container {
+  width: 120px;
+  vertical-align: top;
+}
+
+.td-with-span {
+  width: 150px;
+  text-align: center;
+}
+
+.td-with-span span {
+  padding: 0.3rem 0.5rem;
+}
+
+.button-td {
+  width: 105px;
+  text-align: center;
+  padding: 2rem;
 }
 
 .join-mission-btn {
   color: var(--join-mission-btn);
   border: 1px solid var(--join-mission-btn);
   background-color: transparent;
-  padding: 0.5rem;
+  padding: 1rem 0.5rem;
   border-radius: 0.25rem;
+  width: 108px;
+  font-size: 1.5rem;
   transition: background-color 0.3s, color 0.3s;
 }
 
