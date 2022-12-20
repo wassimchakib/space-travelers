@@ -28,8 +28,9 @@ const Missions = () => {
           </button>
         </td>
       </tr>
-    ),
+    )
   );
+
   return (
     <section>
       <div className="container">
