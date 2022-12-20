@@ -1,13 +1,15 @@
+import { Provider } from 'react-redux';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import Navbar from './components/navbar';
 import Missions from './components/missions';
 
 import './App.css';
-import Rockets from './components/rockets/Rockets';
+import Rockets from './pages/rockets/Rockets';
+import store from './redux/store';
 
 function App() {
   return (
-    <>
+    <Provider store={store}>
       <Navbar />
       <Routes>
         <Route path="/rockets" element={<Rockets />} />
@@ -16,7 +18,7 @@ function App() {
         <Route exact path="/" element={<Navigate to="rockets" />} />
         <Route path="*" element={<h1>404 Not Found</h1>} />
       </Routes>
-    </>
+    </Provider>
   );
 }
 
