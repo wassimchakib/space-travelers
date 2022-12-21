@@ -48,26 +48,17 @@ tr:nth-child(odd) {
   padding: 2rem;
 }
 
-.join-mission-btn {
-  color: var(--join-mission-btn);
-  border: 1px solid var(--join-mission-btn);
-  background-color: transparent;
-  padding: 1rem 0.5rem;
-  border-radius: 0.25rem;
-  width: 108px;
-  font-size: 1.5rem;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-.join-mission-btn:hover {
-  background-color: var(--join-mission-btn);
-  color: var(--bg-white);
-}
-
-.status-not-a-member {
-  background-color: #6d757d;
-  color: var(--bg-white);
+.status {
   padding: 0.3rem;
   border-radius: 0.3rem;
   font-weight: 700;
+  color: var(--bg-white);
+}
+
+.active-member {
+  background-color: #18a2b8;
+}
+
+.not-a-member {
+  background-color: #6d757d;
 }

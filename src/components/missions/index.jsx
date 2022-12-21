@@ -14,11 +14,15 @@ const Missions = () => {
 
   const missions = useSelector((state) => state.missionsReducer.missions);
 
-  const missionsList = missions.map(
-    ({ mission_id: missionId, mission_name: missionName, description }) => (
-      <Mission key={missionId} missionName={missionName} description={description} />
-    )
-  );
+  const missionsList = missions.map(({ missionId, missionName, description, joinedMission }) => (
+    <Mission
+      key={missionId}
+      missionId={missionId}
+      missionName={missionName}
+      description={description}
+      joinedMission={joinedMission}
+    />
+  ));
 
   return (
     <section>
