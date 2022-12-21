@@ -1,0 +1,26 @@
+.rocket__btn {
+  font-family: 'Poppins', sans-serif;
+  padding: var(--fs-1);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.rocket__reserve {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.rocket__reserve:hover {
+  background-color: #4ca1fb;
+}
+
+.rocket__cancel {
+  background-color: #fff;
+  color: #d5d3d3;
+  border: 1px solid #e8e8e8;
+}
+
+.rocket__cancel:hover {
+  background-color: #f1f1f1;
+}

@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import RocketService from '../../services/rocketService';
 
-const GET_ROCKETS = 'spacetravelers/rockets/GET_ROCKETS';
+const GET_ROCKETS = 'space-travelers/rockets/GET_ROCKETS';
 
 const getRockets = createAsyncThunk(GET_ROCKETS, async () => {
   const result = await RocketService.fetchRockets();
@@ -12,6 +12,7 @@ const getRockets = createAsyncThunk(GET_ROCKETS, async () => {
       name: rocket.rocket_name,
       description: rocket.description,
       images: rocket.flickr_images,
+      reserved: false,
     });
   });
   return rockets;
@@ -23,6 +24,15 @@ const rocketsSlice = createSlice({
     rockets: [],
     loading: false,
     error: '',
+  },
+  reducers: {
+    reserveRocket: (state, action) => {
+      const newState = state.rockets.map(rocket => {
+        if(rocket.id !== action.payload) return rocket;
+        return {...rocket, reserved: !rocket.reserved}
+      });
+      return {...state, rockets: newState}
+    }
   },
   extraReducers: (builder) => {
     builder.addCase(getRockets.pending, (state) => ({ ...state, loading: true }));
@@ -41,4 +51,5 @@ const rocketsSlice = createSlice({
 });
 
 export default rocketsSlice.reducer;
-export { getRockets };
+export { getRockets};
+export const { reserveRocket } = rocketsSlice.actions;
