@@ -12,6 +12,7 @@ class MissionService {
           missionId: item.mission_id,
           description: item.description,
           joinedMission: false,
+          wikipedia: item.wikipedia,
         });
       });
       return newData;
