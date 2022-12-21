@@ -1,6 +1,7 @@
 .profile__content {
   display: flex;
   justify-content: space-between;
+  column-gap: 5rem;
 }
 
 .profile__content h2 {
