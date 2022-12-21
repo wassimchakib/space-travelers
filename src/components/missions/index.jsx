@@ -1,28 +1,29 @@
-import { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { getMissions } from '../../redux/missions/missionsSlice';
-import Mission from './mission';
+import { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { getMissions } from "../../redux/missions/missionsSlice";
+import Mission from "./mission";
 
-import './styles.css';
+import "./styles.css";
 
 const Missions = () => {
   const dispatch = useDispatch();
-
-  useEffect(() => {
-    dispatch(getMissions());
-  }, [dispatch]);
-
   const missions = useSelector((state) => state.missionsReducer.missions);
 
-  const missionsList = missions.map(({ missionId, missionName, description, joinedMission }) => (
-    <Mission
-      key={missionId}
-      missionId={missionId}
-      missionName={missionName}
-      description={description}
-      joinedMission={joinedMission}
-    />
-  ));
+  useEffect(() => {
+    if (missions.length === 0) dispatch(getMissions());
+  }, [dispatch, missions.length]);
+
+  const missionsList = missions.map(
+    ({ missionId, missionName, description, joinedMission }) => (
+      <Mission
+        key={missionId}
+        missionId={missionId}
+        missionName={missionName}
+        description={description}
+        joinedMission={joinedMission}
+      />
+    )
+  );
 
   return (
     <section>
