@@ -31,3 +31,13 @@
 .profile__rockets {
   width: 50%;
 }
+
+.profile__rocket {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.font-alert {
+  margin-left: 10px;
+}
