@@ -13,6 +13,7 @@ const getRockets = createAsyncThunk(GET_ROCKETS, async () => {
       description: rocket.description,
       images: rocket.flickr_images,
       reserved: false,
+      wikipedia: rocket.wikipedia
     });
   });
   return rockets;
