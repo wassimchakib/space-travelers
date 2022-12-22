@@ -83,9 +83,9 @@
 
 <!-- > Add a link to your deployed project. -->
 
-- [Link1](https://luxury-froyo-1ab91f.netlify.app/rockets)
-- [Link2](https://space-travelers-ashy.vercel.app/rockets)
-- [Link3](https://space-travelers.onrender.com/rockets)
+- [Link1](https://space-travelers-wassimchakib.netlify.app)
+- [Link2](https://space-travelers-ashy.vercel.app)
+- [Link3](https://space-travelers.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
