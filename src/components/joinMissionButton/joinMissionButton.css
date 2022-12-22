@@ -1,0 +1,28 @@
+.btn {
+  background-color: transparent;
+  padding: 1rem 0.5rem;
+  border-radius: 0.25rem;
+  width: 108px;
+  font-size: 1.5rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.leave-missioin-btn {
+  color: var(--leave-mission-btn);
+  border: 1px solid var(--leave-mission-btn);
+}
+
+.leave-missioin-btn:hover {
+  background-color: var(--leave-mission-btn);
+  color: var(--bg-white);
+}
+
+.join-mission-btn {
+  color: var(--join-mission-btn);
+  border: 1px solid var(--join-mission-btn);
+}
+
+.join-mission-btn:hover {
+  background-color: var(--join-mission-btn);
+  color: var(--bg-white);
+}

@@ -1,0 +1,49 @@
+.profile__content {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 5rem;
+}
+
+.profile__content h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.profile__content ul {
+  margin-top: var(--fs-1);
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+}
+
+.profile__content li {
+  padding: var(--fs-1);
+  font-size: 1.6rem;
+}
+
+.profile__content li:not(:last-child) {
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.profile__missions {
+  width: 50%;
+}
+
+.profile__rockets {
+  width: 50%;
+}
+
+.profile__rocket {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile__mission {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.font-alert {
+  margin-left: 10px;
+}

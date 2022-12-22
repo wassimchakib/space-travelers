@@ -1,0 +1,31 @@
+.rocket {
+  display: flex;
+  gap: var(--fs-1);
+}
+
+.rocket__image {
+  width: 30%;
+}
+
+.rocket__info {
+  display: flex;
+  flex-direction: column;
+  gap: var(--fs-1);
+}
+
+.rocket__info h2 {
+  font-size: var(--fs-2);
+}
+
+.rocket__reserved {
+  background-color: #18a2b8;
+  color: #fff;
+  border-radius: 5px;
+  padding: 0 5px;
+  margin-right: 5px;
+  font-size: var(--fs-1);
+}
+
+.rocket__info p {
+  font-size: 1.2rem;
+}
