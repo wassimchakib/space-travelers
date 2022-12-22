@@ -1,241 +1,65 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test suite for missions components should render joinMissionButton with joinedMission equal to false  1`] = `
+exports[`Rocket page Render rocket component 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <button
-        class="join-mission-btn btn"
-        type="button"
+      <div
+        class="rocket"
       >
-        Join Mission
-      </button>
-    </div>
-  </body>,
-  "container": <div>
-    <button
-      class="join-mission-btn btn"
-      type="button"
-    >
-      Join Mission
-    </button>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`Test suite for missions components should render joinMissionButton with joinedMission equal to true  1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": <body>
-    <div>
-      <button
-        class="leave-missioin-btn btn"
-        type="button"
-      >
-        Leave Mission
-      </button>
-    </div>
-  </body>,
-  "container": <div>
-    <button
-      class="leave-missioin-btn btn"
-      type="button"
-    >
-      Leave Mission
-    </button>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`Test suite for missions components should render mission component 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": <body>
-    <div>
-      <table>
-        <tbody>
-          <tr>
-            <td
-              class="td title-container"
-            >
-              <h1
-                class="mission-title"
-              >
-                Thaicom
-              </h1>
-            </td>
-            <td
-              class="td"
-            >
-              Thaicom is the name of a series of communications satellites operated from Thailand, and also the name of Thaicom Public Company Limited, which is the company that owns and operates the Thaicom satellite fleet and other telecommunication businesses in Thailand and throughout the Asia-Pacific region. The satellite projects were named Thaicom by the King of Thailand, His Majesty the King Bhumibol Adulyadej, as a symbol of the linkage between Thailand and modern communications technology.
-            </td>
-            <td
-              class="td td-with-span"
-            >
-              <span
-                class="not-a-member status"
-              >
-                NOT A MEMBER
-              </span>
-            </td>
-            <td
-              class="td button-td"
-            >
-              <button
-                class="join-mission-btn btn"
-                type="button"
-              >
-                Join Mission
-              </button>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </body>,
-  "container": <div>
-    <table>
-      <tbody>
-        <tr>
-          <td
-            class="td title-container"
-          >
-            <h1
-              class="mission-title"
-            >
-              Thaicom
-            </h1>
-          </td>
-          <td
-            class="td"
-          >
-            Thaicom is the name of a series of communications satellites operated from Thailand, and also the name of Thaicom Public Company Limited, which is the company that owns and operates the Thaicom satellite fleet and other telecommunication businesses in Thailand and throughout the Asia-Pacific region. The satellite projects were named Thaicom by the King of Thailand, His Majesty the King Bhumibol Adulyadej, as a symbol of the linkage between Thailand and modern communications technology.
-          </td>
-          <td
-            class="td td-with-span"
-          >
-            <span
-              class="not-a-member status"
-            >
-              NOT A MEMBER
-            </span>
-          </td>
-          <td
-            class="td button-td"
-          >
+        <img
+          alt="Falcon 1"
+          class="rocket__image"
+        />
+        <div
+          class="rocket__info"
+        >
+          <h2>
+            Falcon 1
+          </h2>
+          <p>
+            Falcon 1 description
+          </p>
+          <div>
             <button
-              class="join-mission-btn btn"
+              class="rocket__btn rocket__reserve"
               type="button"
             >
-              Join Mission
+              Reserve Rocket
             </button>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="rocket"
+    >
+      <img
+        alt="Falcon 1"
+        class="rocket__image"
+      />
+      <div
+        class="rocket__info"
+      >
+        <h2>
+          Falcon 1
+        </h2>
+        <p>
+          Falcon 1 description
+        </p>
+        <div>
+          <button
+            class="rocket__btn rocket__reserve"
+            type="button"
+          >
+            Reserve Rocket
+          </button>
+        </div>
+      </div>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
@@ -291,156 +115,230 @@ Object {
 }
 `;
 
-exports[`Test suite for missions components should render missions component 1`] = `
+exports[`Rocket page Should render Cancel Reservation button when reserved = true 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <section>
+      <button
+        class="rocket__btn rocket__cancel"
+        type="button"
+      >
+        Cancel Reservation
+      </button>
+    </div>
+  </body>,
+  "container": <div>
+    <button
+      class="rocket__btn rocket__cancel"
+      type="button"
+    >
+      Cancel Reservation
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Rocket page Should render Reserve Rocket button when reserved = false 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <button
+        class="rocket__btn rocket__reserve"
+        type="button"
+      >
+        Reserve Rocket
+      </button>
+    </div>
+  </body>,
+  "container": <div>
+    <button
+      class="rocket__btn rocket__reserve"
+      type="button"
+    >
+      Reserve Rocket
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Rocket page renders rockets page 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <section
+        class="rocket"
+      >
         <div
           class="container"
         >
-          <table
-            class="table-container"
+          <div
+            class="rocket"
           >
-            <thead
-              id="thead"
+            <img
+              alt="Falcon 3"
+              class="rocket__image"
+            />
+            <div
+              class="rocket__info"
             >
-              <tr>
-                <th
-                  class="th"
+              <h2>
+                Falcon 3
+              </h2>
+              <p>
+                Falcon description
+              </p>
+              <div>
+                <button
+                  class="rocket__btn rocket__reserve"
+                  type="button"
                 >
-                  Missions
-                </th>
-                <th
-                  class="th"
-                >
-                  Description
-                </th>
-                <th
-                  class="th"
-                >
-                  Status
-                </th>
-                <th
-                  aria-label="empty-table-head"
-                  class="th"
-                />
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td
-                  class="td title-container"
-                >
-                  <h1
-                    class="mission-title"
-                  >
-                    Thaicom
-                  </h1>
-                </td>
-                <td
-                  class="td"
-                >
-                  test
-                </td>
-                <td
-                  class="td td-with-span"
-                >
-                  <span
-                    class="not-a-member status"
-                  >
-                    NOT A MEMBER
-                  </span>
-                </td>
-                <td
-                  class="td button-td"
-                >
-                  <button
-                    class="join-mission-btn btn"
-                    type="button"
-                  >
-                    Join Mission
-                  </button>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+                  Reserve Rocket
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>
   </body>,
   "container": <div>
-    <section>
+    <section
+      class="rocket"
+    >
       <div
         class="container"
       >
-        <table
-          class="table-container"
+        <div
+          class="rocket"
         >
-          <thead
-            id="thead"
+          <img
+            alt="Falcon 3"
+            class="rocket__image"
+          />
+          <div
+            class="rocket__info"
           >
-            <tr>
-              <th
-                class="th"
+            <h2>
+              Falcon 3
+            </h2>
+            <p>
+              Falcon description
+            </p>
+            <div>
+              <button
+                class="rocket__btn rocket__reserve"
+                type="button"
               >
-                Missions
-              </th>
-              <th
-                class="th"
-              >
-                Description
-              </th>
-              <th
-                class="th"
-              >
-                Status
-              </th>
-              <th
-                aria-label="empty-table-head"
-                class="th"
-              />
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td
-                class="td title-container"
-              >
-                <h1
-                  class="mission-title"
-                >
-                  Thaicom
-                </h1>
-              </td>
-              <td
-                class="td"
-              >
-                test
-              </td>
-              <td
-                class="td td-with-span"
-              >
-                <span
-                  class="not-a-member status"
-                >
-                  NOT A MEMBER
-                </span>
-              </td>
-              <td
-                class="td button-td"
-              >
-                <button
-                  class="join-mission-btn btn"
-                  type="button"
-                >
-                  Join Mission
-                </button>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+                Reserve Rocket
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </div>,
