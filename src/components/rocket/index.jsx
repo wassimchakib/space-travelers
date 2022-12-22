@@ -9,7 +9,7 @@ const Rocket = ({ rocket }) => {
 
   return (
     <div className="rocket">
-      <img className="rocket__image" src={images[Math.floor(Math.random() * images.length)]} alt={name} />
+      <img className="rocket__image" src={images[0]} alt={name} />
       <div className="rocket__info">
         <h2>{name}</h2>
         <p>
