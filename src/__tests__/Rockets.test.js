@@ -1,6 +1,5 @@
 import { render } from '@testing-library/react';
 import { useSelector } from 'react-redux';
-import * as btn from '../components/reservebtn';
 import ReserveBtn from '../components/reservebtn';
 import Rocket from '../components/rocket';
 import Rockets from '../pages/rockets/Rockets'
@@ -13,7 +12,6 @@ describe('Rocket page', () => {
   });
 
   it('Render rocket component', async () => {
-    jest.spyOn(btn, 'default').mockImplementation();
     const obj = {
       id: '1',
       images: [],
@@ -54,7 +52,7 @@ describe('Rocket page', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('Should render Reserve Rocket button when reserved = true', () => {
+  it('Should render Reserve Rocket button when reserved = false', () => {
     const tree = render(<ReserveBtn id="falcon1" reserved={false} />)
     expect(tree).toMatchSnapshot();
   });

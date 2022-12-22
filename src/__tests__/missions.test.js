@@ -2,7 +2,6 @@ import { useSelector } from 'react-redux';
 import { render } from '@testing-library/react';
 import Mission from '../components/missions/mission';
 import Missions from '../components/missions';
-import * as btn from '../components/joinMissionButton';
 import JoinMissionButton from '../components/joinMissionButton';
 
 jest.mock('react-redux');
@@ -13,8 +12,6 @@ describe('Test suite for missions components', () => {
   });
 
   test('should render mission component', () => {
-    jest.spyOn(btn, 'default').mockImplementation();
-
     const tree = render(
       <table>
         <tbody>

@@ -21,7 +21,14 @@ Object {
           <p>
             Falcon 1 description
           </p>
-          <div />
+          <div>
+            <button
+              class="rocket__btn rocket__reserve"
+              type="button"
+            >
+              Reserve Rocket
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -43,7 +50,14 @@ Object {
         <p>
           Falcon 1 description
         </p>
-        <div />
+        <div>
+          <button
+            class="rocket__btn rocket__reserve"
+            type="button"
+          >
+            Reserve Rocket
+          </button>
+        </div>
       </div>
     </div>
   </div>,
@@ -105,9 +119,23 @@ exports[`Rocket page Should render Cancel Reservation button when reserved = tru
 Object {
   "asFragment": [Function],
   "baseElement": <body>
-    <div />
+    <div>
+      <button
+        class="rocket__btn rocket__cancel"
+        type="button"
+      >
+        Cancel Reservation
+      </button>
+    </div>
   </body>,
-  "container": <div />,
+  "container": <div>
+    <button
+      class="rocket__btn rocket__cancel"
+      type="button"
+    >
+      Cancel Reservation
+    </button>
+  </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
   "findAllByDisplayValue": [Function],
@@ -162,13 +190,27 @@ Object {
 }
 `;
 
-exports[`Rocket page Should render Reserve Rocket button when reserved = true 1`] = `
+exports[`Rocket page Should render Reserve Rocket button when reserved = false 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
-    <div />
+    <div>
+      <button
+        class="rocket__btn rocket__reserve"
+        type="button"
+      >
+        Reserve Rocket
+      </button>
+    </div>
   </body>,
-  "container": <div />,
+  "container": <div>
+    <button
+      class="rocket__btn rocket__reserve"
+      type="button"
+    >
+      Reserve Rocket
+    </button>
+  </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
   "findAllByDisplayValue": [Function],
@@ -250,7 +292,14 @@ Object {
               <p>
                 Falcon description
               </p>
-              <div />
+              <div>
+                <button
+                  class="rocket__btn rocket__reserve"
+                  type="button"
+                >
+                  Reserve Rocket
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -280,7 +329,14 @@ Object {
             <p>
               Falcon description
             </p>
-            <div />
+            <div>
+              <button
+                class="rocket__btn rocket__reserve"
+                type="button"
+              >
+                Reserve Rocket
+              </button>
+            </div>
           </div>
         </div>
       </div>

@@ -4,9 +4,23 @@ exports[`Test suite for missions components should render joinMissionButton with
 Object {
   "asFragment": [Function],
   "baseElement": <body>
-    <div />
+    <div>
+      <button
+        class="join-mission-btn btn"
+        type="button"
+      >
+        Join Mission
+      </button>
+    </div>
   </body>,
-  "container": <div />,
+  "container": <div>
+    <button
+      class="join-mission-btn btn"
+      type="button"
+    >
+      Join Mission
+    </button>
+  </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
   "findAllByDisplayValue": [Function],
@@ -65,9 +79,23 @@ exports[`Test suite for missions components should render joinMissionButton with
 Object {
   "asFragment": [Function],
   "baseElement": <body>
-    <div />
+    <div>
+      <button
+        class="leave-missioin-btn btn"
+        type="button"
+      >
+        Leave Mission
+      </button>
+    </div>
   </body>,
-  "container": <div />,
+  "container": <div>
+    <button
+      class="leave-missioin-btn btn"
+      type="button"
+    >
+      Leave Mission
+    </button>
+  </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
   "findAllByDisplayValue": [Function],
@@ -155,7 +183,14 @@ Object {
             </td>
             <td
               class="td button-td"
-            />
+            >
+              <button
+                class="join-mission-btn btn"
+                type="button"
+              >
+                Join Mission
+              </button>
+            </td>
           </tr>
         </tbody>
       </table>
@@ -190,7 +225,14 @@ Object {
           </td>
           <td
             class="td button-td"
-          />
+          >
+            <button
+              class="join-mission-btn btn"
+              type="button"
+            >
+              Join Mission
+            </button>
+          </td>
         </tr>
       </tbody>
     </table>
@@ -313,7 +355,14 @@ Object {
                 </td>
                 <td
                   class="td button-td"
-                />
+                >
+                  <button
+                    class="join-mission-btn btn"
+                    type="button"
+                  >
+                    Join Mission
+                  </button>
+                </td>
               </tr>
             </tbody>
           </table>
@@ -381,7 +430,14 @@ Object {
               </td>
               <td
                 class="td button-td"
-              />
+              >
+                <button
+                  class="join-mission-btn btn"
+                  type="button"
+                >
+                  Join Mission
+                </button>
+              </td>
             </tr>
           </tbody>
         </table>
